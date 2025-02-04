@@ -2,7 +2,7 @@
 [Demo](https://uptime.fcos.dev/)
 
 ![image](https://raw.githubusercontent.com/Torinomii/nezha-dash-v1-v1.17.0-mediaunlock/refs/heads/main/unlock.png)
-由[nezha-dash-v1](https://github.com/hamster1963/nezha-dash-v1) v1.17.0版本修改
+根据[nezha-dash-v1](https://github.com/hamster1963/nezha-dash-v1) v1.17.0版本修改
 
 
 # 下载并修改 nezha-dash-v1 前端
