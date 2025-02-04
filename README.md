@@ -26,7 +26,7 @@ unzip dist.zip && mv dist/ user-dist/
 ```
 备份文件```cp user-dist/index.eyIaazA7.js user-dist/index.eyIaazA7.js.bak```
 
-你可以直接下载我修改好的 ```https://github.com/Torinomii/nezha-dash-v1-v1.17.0-mediaunlock/raw/refs/heads/main/index.eyIaazA7.js```
+你可以直接下载我修改好的 ```[https://github.com/Torinomii/nezha-dash-v1-v1.17.0-mediaunlock/raw/refs/heads/main/index.eyIaazA7.js](https://github.com/Torinomii/nezha-dash-v1-v1.17.0-mediaunlock/raw/refs/heads/main/user-dist/assets/index.eyIaazA7.js)```
 
 或者手动修改```vim user-dist/index.eyIaazA7.js```找到并修改下列变量新增解锁标签
 
