@@ -193,11 +193,11 @@ function unlockStyles() {
 ```
 ### 保存文件 
 \
- 新增对应vps解锁信息文件```dashboard/user-dist/unlockdata/服务器id.md``` 例如服务器id为1
+ 新增对应vps解锁信息文件```user-dist/unlockdata/服务器id.md``` 例如服务器id为1
 
 这里使用的是我修改过的检测脚本，当然你可以使用原版解锁自己修改为需要的 [1-stream/RegionRestrictionCheck](https://github.com/1-stream/RegionRestrictionCheck)
 ```
-mkdir dashboard/user-dist/unlockdata/
+mkdir user-dist/unlockdata/
 bash <(curl -L -s https://github.com/Torinomii/RegionRestrictionCheck/raw/main/check.sh) -N 2 -M 4 | sed -e "s/\x1B\[[0-9;]*[a-zA-Z]//g" -e "s/\r//g" > /opt/nezha/dashboard/user-dist/unlockdata/1.md
 ```
 需要哪台vps的解锁信息就把相对应的服务器id.md上传到```dashboard/user-dist/unlockdata/```
